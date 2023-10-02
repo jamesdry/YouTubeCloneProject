@@ -1,630 +1,631 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <title>YouTube</title>
-  </head>
-  <body>
-    <!-- Header Navigation Bar -->
-    <nav>
-      <ul>
-        <div class="left-side">
-          <div class="hamburger-menu">
-            <i class="fa-bars fa-solid"></i>
-          </div>
-          <div class="YouTubeLogo">
-            <img src="assets/img/YouTube-Logo-Vector.png" alt="" />
-          </div>
-        </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<title>YouTube</title>
+	</head>
+	<body>
+		<!-- Header Navigation Bar -->
 
-        <div class="middle-part">
-          <div class="search-bar">
-            <input type="text" placeholder="Search" />
-            <div class="search-icon">
-              <i class="fa-magnifying-glass fa-solid"></i>
-            </div>
-          </div>
-          <div class="voice-assistant">
-            <i class="fa-solid fa-microphone"></i>
-          </div>
-        </div>
+		<nav>
+			<ul>
+				<div class="left-side">
+					<div class="hamburger-menu">
+						<i class="fa-bars fa-solid"></i>
+					</div>
+					<div class="YouTubeLogo">
+						<img src="assets/img/YouTube-Logo-Vector.png" alt="" />
+					</div>
+				</div>
 
-        <div class="right-side">
-          <div class="three-dots">
-            <i class="fa-solid fa-ellipsis-vertical"></i>
-          </div>
-          <div class="user-button">
-            <div class="user">
-              <i class="fa-solid fa-user"></i>
-            </div>
-            <a href="#">Sign in</a>
-          </div>
-        </div>
-      </ul>
-    </nav>
+				<div class="middle-part">
+					<div class="search-bar">
+						<input type="text" placeholder="Search" />
+						<div class="search-icon">
+							<i class="fa-magnifying-glass fa-solid"></i>
+						</div>
+					</div>
+					<div class="voice-assistant">
+						<i class="fa-solid fa-microphone"></i>
+					</div>
+				</div>
 
-    <!-- Sidebar Menu -->
-    <aside>
-      <div class="sidebar">
-        <div class="menu active">
-          <div class="icon">
-            <i class="fa-solid fa-house"></i>
-          </div>
-          <p>Home</p>
-        </div>
-        <div class="menu">
-          <div class="icon">
-            <i class="fa-solid fa-video"></i>
-          </div>
-          <p>Shorts</p>
-        </div>
-        <div class="menu">
-          <div class="icon">
-            <i class="fa-solid fa-subscript"></i>
-          </div>
-          <p>Subscriptions</p>
-        </div>
-        <hr />
-        <div class="section2">
-          <div class="menu2">
-            <div class="icon">
-              <i class="fa-solid fa-book"></i>
-            </div>
-            <p>Library</p>
-          </div>
-          <div class="menu2">
-            <div class="icon">
-              <i class="fa-solid fa-clock-rotate-left"></i>
-            </div>
-            <p>History</p>
-          </div>
-        </div>
-        <hr />
-        <div class="sign-in">
-          <p>Sign in to like videos, comment and subscribe.</p>
-          <div class="menu-user-button">
-            <div class="menu-user">
-              <i class="fa-solid fa-user"></i>
-            </div>
-            <a href="#">Sign in</a>
-          </div>
-        </div>
-        <hr />
-        <div class="section3">
-          <h4>Explore</h4>
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-solid fa-glasses"></i>
-            </div>
-            <p>Trending</p>
-          </div>
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-solid fa-music"></i>
-            </div>
-            <p>Music</p>
-          </div>
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-solid fa-film"></i>
-            </div>
-            <p>Films</p>
-          </div>
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-solid fa-gamepad"></i>
-            </div>
-            <p>Gaming</p>
-          </div>
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-solid fa-newspaper"></i>
-            </div>
-            <p>News</p>
-          </div>
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-solid fa-medal"></i>
-            </div>
-            <p>Sport</p>
-          </div>
-        </div>
-        <hr />
-        <div class="browse-channel-menu">
-          <div class="icon">
-            <i class="fa-solid fa-circle-plus"></i>
-          </div>
-          <p>Browse channels</p>
-        </div>
-        <hr />
-        <div class="section4">
-          <h4>More from YouTube</h4>
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-brands fa-youtube" style="color: #ff2600"></i>
-            </div>
-            <p>YouTube Premium</p>
-          </div>
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-brands fa-youtube" style="color: #ff2600"></i>
-            </div>
-            <p>YouTube Music</p>
-          </div>
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-brands fa-youtube" style="color: #ff2600"></i>
-            </div>
-            <p>YouTube Kids</p>
-          </div>
-        </div>
-        <hr />
-        <div class="section5">
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-solid fa-gear"></i>
-            </div>
-            <p>Settings</p>
-          </div>
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-regular fa-flag"></i>
-            </div>
-            <p>Report history</p>
-          </div>
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-solid fa-circle-info"></i>
-            </div>
-            <p>Help</p>
-          </div>
-          <div class="menu">
-            <div class="icon">
-              <i class="fa-solid fa-comment"></i>
-            </div>
-            <p>Send feedback</p>
-          </div>
-        </div>
-        <hr />
-        <div class="wrapper-section-5">
-          <div class="first-row">
-            <p><a href="#">About</a></p>
-            <p><a href="#">Press</a></p>
-            <p><a href="#">Copyright</a></p>
-          </div>
-          <div class="second-row">
-            <p><a href="#">Contact us</a></p>
-            <p><a href="#">Creator</a></p>
-            <p><a href="#">Advertise</a></p>
-          </div>
-          <div class="third-row">
-            <p><a href="#">Developers</a></p>
-          </div>
-        </div>
-        <div class="wrapper-section-6">
-          <div class="first-row">
-            <p><a href="#">Terms</a></p>
-            <p><a href="#">Privacy</a></p>
-            <p><a href="#">Policy & Safety</a></p>
-          </div>
-          <div class="second-row">
-            <p><a href="#">How YouTube works</a></p>
-          </div>
-          <div class="third-row">
-            <p><a href="#">Test new features</a></p>
-          </div>
-        </div>
-        <div class="sidebar-footer">
-          <p>&copy; 2023 Google LLC</p>
-        </div>
-      </div>
-    </aside>
+				<div class="right-side">
+					<div class="three-dots">
+						<i class="fa-solid fa-ellipsis-vertical"></i>
+					</div>
+					<div class="user-button">
+						<div class="user">
+							<i class="fa-solid fa-user"></i>
+						</div>
+						<a href="#">Sign in</a>
+					</div>
+				</div>
+			</ul>
+		</nav>
 
-    <!-- Content -->
-    <!-- Horizontal Scroll -->
-    <div class="navigation-links">
-      <div class="horizontal-scroll">
-        <a href="#" class="active">All</a>
-        <a href="#">CSS</a>
-        <a href="#">Music</a>
-        <a href="#">Adobe Photoshop</a>
-        <a href="#">Macbook Air</a>
-        <a href="#">Macbook Pro</a>
-        <a href="#">Comedy</a>
-        <a href="#">Horror</a>
-        <a href="#">Tournament</a>
-        <a href="#">Recently Uploaded</a>
-        <a href="#">Continue Watching</a>
-        <a href="#">Red Dead Redemption 2</a>
-        <a href="#">iPhone 15 Pro</a>
-      </div>
-    </div>
+		<!-- Sidebar Menu -->
+		<aside>
+			<div class="sidebar">
+				<div class="menu active">
+					<div class="icon">
+						<i class="fa-solid fa-house"></i>
+					</div>
+					<p>Home</p>
+				</div>
+				<div class="menu">
+					<div class="icon">
+						<i class="fa-solid fa-video"></i>
+					</div>
+					<p>Shorts</p>
+				</div>
+				<div class="menu">
+					<div class="icon">
+						<i class="fa-solid fa-subscript"></i>
+					</div>
+					<p>Subscriptions</p>
+				</div>
+				<hr />
+				<div class="section2">
+					<div class="menu2">
+						<div class="icon">
+							<i class="fa-solid fa-book"></i>
+						</div>
+						<p>Library</p>
+					</div>
+					<div class="menu2">
+						<div class="icon">
+							<i class="fa-solid fa-clock-rotate-left"></i>
+						</div>
+						<p>History</p>
+					</div>
+				</div>
+				<hr />
+				<div class="sign-in">
+					<p>Sign in to like videos, comment and subscribe.</p>
+					<div class="menu-user-button">
+						<div class="menu-user">
+							<i class="fa-solid fa-user"></i>
+						</div>
+						<a href="#">Sign in</a>
+					</div>
+				</div>
+				<hr />
+				<div class="section3">
+					<h4>Explore</h4>
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-solid fa-glasses"></i>
+						</div>
+						<p>Trending</p>
+					</div>
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-solid fa-music"></i>
+						</div>
+						<p>Music</p>
+					</div>
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-solid fa-film"></i>
+						</div>
+						<p>Films</p>
+					</div>
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-solid fa-gamepad"></i>
+						</div>
+						<p>Gaming</p>
+					</div>
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-solid fa-newspaper"></i>
+						</div>
+						<p>News</p>
+					</div>
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-solid fa-medal"></i>
+						</div>
+						<p>Sport</p>
+					</div>
+				</div>
+				<hr />
+				<div class="browse-channel-menu">
+					<div class="icon">
+						<i class="fa-solid fa-circle-plus"></i>
+					</div>
+					<p>Browse channels</p>
+				</div>
+				<hr />
+				<div class="section4">
+					<h4>More from YouTube</h4>
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-brands fa-youtube" style="color: #ff2600"></i>
+						</div>
+						<p>YouTube Premium</p>
+					</div>
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-brands fa-youtube" style="color: #ff2600"></i>
+						</div>
+						<p>YouTube Music</p>
+					</div>
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-brands fa-youtube" style="color: #ff2600"></i>
+						</div>
+						<p>YouTube Kids</p>
+					</div>
+				</div>
+				<hr />
+				<div class="section5">
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-solid fa-gear"></i>
+						</div>
+						<p>Settings</p>
+					</div>
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-regular fa-flag"></i>
+						</div>
+						<p>Report history</p>
+					</div>
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-solid fa-circle-info"></i>
+						</div>
+						<p>Help</p>
+					</div>
+					<div class="menu">
+						<div class="icon">
+							<i class="fa-solid fa-comment"></i>
+						</div>
+						<p>Send feedback</p>
+					</div>
+				</div>
+				<hr />
+				<div class="wrapper-section-5">
+					<div class="first-row">
+						<p><a href="#">About</a></p>
+						<p><a href="#">Press</a></p>
+						<p><a href="#">Copyright</a></p>
+					</div>
+					<div class="second-row">
+						<p><a href="#">Contact us</a></p>
+						<p><a href="#">Creator</a></p>
+						<p><a href="#">Advertise</a></p>
+					</div>
+					<div class="third-row">
+						<p><a href="#">Developers</a></p>
+					</div>
+				</div>
+				<div class="wrapper-section-6">
+					<div class="first-row">
+						<p><a href="#">Terms</a></p>
+						<p><a href="#">Privacy</a></p>
+						<p><a href="#">Policy & Safety</a></p>
+					</div>
+					<div class="second-row">
+						<p><a href="#">How YouTube works</a></p>
+					</div>
+					<div class="third-row">
+						<p><a href="#">Test new features</a></p>
+					</div>
+				</div>
+				<div class="sidebar-footer">
+					<p>&copy; 2023 Google LLC</p>
+				</div>
+			</div>
+		</aside>
 
-    <!-- Video Section -->
-    <section class="video-section">
-      <div class="video-thumbnail-grid">
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-    <hr />
+		<!-- Content -->
+		<!-- Horizontal Scroll -->
+		<div class="navigation-links">
+			<div class="horizontal-scroll">
+				<a href="#" class="active">All</a>
+				<a href="#">CSS</a>
+				<a href="#">Music</a>
+				<a href="#">Adobe Photoshop</a>
+				<a href="#">Macbook Air</a>
+				<a href="#">Macbook Pro</a>
+				<a href="#">Comedy</a>
+				<a href="#">Horror</a>
+				<a href="#">Tournament</a>
+				<a href="#">Recently Uploaded</a>
+				<a href="#">Continue Watching</a>
+				<a href="#">Red Dead Redemption 2</a>
+				<a href="#">iPhone 15 Pro</a>
+			</div>
+		</div>
 
-    <!-- YouTube Short Section -->
-    <section class="youtube-shorts-section">
-      <div class="youtube-shorts-title">
-        <i class="fa-brands fa-youtube" style="color: #ff2600"></i>
-        <h4>Shorts</h4>
-      </div>
+		<!-- Video Section -->
+		<section class="video-section">
+			<div class="video-thumbnail-grid">
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<hr />
 
-      <div class="youtube-shorts-video-grid">
-        <a href="#">
-          <img
-            src="assets/img/Mona_Lisa-restored.jpg"
-            alt="monalisa-thumbnail"
-          />
-          <div class="youtube-shorts-video-description">
-            <p class="shorts-video-title">Monalisa Painting</p>
-            <p class="shorts-video-views">7.1M views</p>
-          </div>
-        </a>
-        <a href="#">
-          <img
-            src="assets/img/Mona_Lisa-restored.jpg"
-            alt="monalisa-thumbnail"
-          />
-          <div class="youtube-shorts-video-description">
-            <p class="shorts-video-title">Monalisa Painting</p>
-            <p class="shorts-video-views">7.1M views</p>
-          </div> </a
-        ><a href="#">
-          <img
-            src="assets/img/Mona_Lisa-restored.jpg"
-            alt="monalisa-thumbnail"
-          />
-          <div class="youtube-shorts-video-description">
-            <p class="shorts-video-title">Monalisa Painting</p>
-            <p class="shorts-video-views">7.1M views</p>
-          </div> </a
-        ><a href="#">
-          <img
-            src="assets/img/Mona_Lisa-restored.jpg"
-            alt="monalisa-thumbnail"
-          />
-          <div class="youtube-shorts-video-description">
-            <p class="shorts-video-title">Monalisa Painting</p>
-            <p class="shorts-video-views">7.1M views</p>
-          </div> </a
-        ><a href="#">
-          <img
-            src="assets/img/Mona_Lisa-restored.jpg"
-            alt="monalisa-thumbnail"
-          />
-          <div class="youtube-shorts-video-description">
-            <p class="shorts-video-title">Monalisa Painting</p>
-            <p class="shorts-video-views">7.1M views</p>
-          </div>
-        </a>
-      </div>
+		<!-- YouTube Short Section -->
+		<section class="youtube-shorts-section">
+			<div class="youtube-shorts-title">
+				<i class="fa-brands fa-youtube" style="color: #ff2600"></i>
+				<h4>Shorts</h4>
+			</div>
 
-      <!-- More YouTube Shorts Videos -->
-      <a href="#" class="more-videos">
-        <div class="more-shorts-videos">
-          <i class="fa-solid fa-angle-down"></i>
-        </div>
-      </a>
-      <hr />
-    </section>
+			<div class="youtube-shorts-video-grid">
+				<a href="#">
+					<img
+						src="assets/img/Mona_Lisa-restored.jpg"
+						alt="monalisa-thumbnail"
+					/>
+					<div class="youtube-shorts-video-description">
+						<p class="shorts-video-title">Monalisa Painting</p>
+						<p class="shorts-video-views">7.1M views</p>
+					</div>
+				</a>
+				<a href="#">
+					<img
+						src="assets/img/Mona_Lisa-restored.jpg"
+						alt="monalisa-thumbnail"
+					/>
+					<div class="youtube-shorts-video-description">
+						<p class="shorts-video-title">Monalisa Painting</p>
+						<p class="shorts-video-views">7.1M views</p>
+					</div> </a
+				><a href="#">
+					<img
+						src="assets/img/Mona_Lisa-restored.jpg"
+						alt="monalisa-thumbnail"
+					/>
+					<div class="youtube-shorts-video-description">
+						<p class="shorts-video-title">Monalisa Painting</p>
+						<p class="shorts-video-views">7.1M views</p>
+					</div> </a
+				><a href="#">
+					<img
+						src="assets/img/Mona_Lisa-restored.jpg"
+						alt="monalisa-thumbnail"
+					/>
+					<div class="youtube-shorts-video-description">
+						<p class="shorts-video-title">Monalisa Painting</p>
+						<p class="shorts-video-views">7.1M views</p>
+					</div> </a
+				><a href="#">
+					<img
+						src="assets/img/Mona_Lisa-restored.jpg"
+						alt="monalisa-thumbnail"
+					/>
+					<div class="youtube-shorts-video-description">
+						<p class="shorts-video-title">Monalisa Painting</p>
+						<p class="shorts-video-views">7.1M views</p>
+					</div>
+				</a>
+			</div>
 
-    <!-- Infinite Scrolling Videos -->
-    <section>
-      <div class="video-thumbnail-grid">
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="thumbnail-image">
-          <a href="#">
-            <img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
-            <div class="thumbnail-channel-profile">
-              <img
-                src="assets/img/channels4_profile.jpg"
-                alt="olivia-rodrigo"
-              />
-              <div class="thumbnail-video-description">
-                <p class="video-title">
-                  Olivia Rodrigo - vampire (Official Video)
-                </p>
-                <div class="thumbnail-channelName-views">
-                  <p class="channel-name">Olivia Rodrigo</p>
-                  <p class="views">60M views . 3 months ago</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-  </body>
+			<!-- More YouTube Shorts Videos -->
+			<a href="#" class="more-videos">
+				<div class="more-shorts-videos">
+					<i class="fa-solid fa-angle-down"></i>
+				</div>
+			</a>
+			<hr />
+		</section>
+
+		<!-- Infinite Scrolling Videos -->
+		<section>
+			<div class="video-thumbnail-grid">
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="thumbnail-image">
+					<a href="#">
+						<img src="assets/img/maxresdefault.jpg" alt="thumbnail-image" />
+						<div class="thumbnail-channel-profile">
+							<img
+								src="assets/img/channels4_profile.jpg"
+								alt="olivia-rodrigo"
+							/>
+							<div class="thumbnail-video-description">
+								<p class="video-title">
+									Olivia Rodrigo - vampire (Official Video)
+								</p>
+								<div class="thumbnail-channelName-views">
+									<p class="channel-name">Olivia Rodrigo</p>
+									<p class="views">60M views . 3 months ago</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+	</body>
 </html>

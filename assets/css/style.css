@@ -1,53 +1,53 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-  background-color: white;
+	background-color: white;
 }
 
 .hamburger-menu {
-  margin-left: 1.5rem;
+	margin-left: 1.5rem;
 }
 
 .hamburger-menu i {
-  font-size: 24px;
+	font-size: 24px;
 }
 
 .hamburger-menu:hover {
-  background-color: rgb(240, 240, 240);
-  cursor: pointer;
-  border-radius: 50%;
+	background-color: rgb(240, 240, 240);
+	cursor: pointer;
+	border-radius: 50%;
 }
 
 .YouTubeLogo img {
-  width: 100px;
-  margin-left: 1.5rem;
+	width: 100px;
+	margin-left: 1.5rem;
 }
 
 .YouTubeLogo img:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 nav {
-  background-color: white;
-  padding: 10px 0px 15px 0px;
-  width: 100%;
-  position: sticky;
-  top: 0;
+	background-color: white;
+	padding: 10px 0px 15px 0px;
+	width: 100%;
+	position: sticky;
+	top: 0;
 }
 
 nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .hamburger-menu,
@@ -56,10 +56,10 @@ nav ul {
 .three-dots,
 .user,
 .menu-user {
-  width: 2.5rem;
-  height: 2.5rem;
-  place-items: center;
-  display: grid;
+	width: 2.5rem;
+	height: 2.5rem;
+	place-items: center;
+	display: grid;
 }
 
 .left-side,
@@ -68,141 +68,145 @@ nav ul {
 .search-bar,
 .user-button,
 .menu-user-button {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .search-bar {
-  width: 500px;
-  height: 40px;
+	width: 500px;
+	height: 40px;
 }
 
 .search-bar input {
-  width: 100%;
-  height: 100%;
-  font-size: 1rem;
-  padding: 1rem;
-  border-left: 1px solid lightgray;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-  border-right: none;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  outline: none;
+	width: 100%;
+	height: 100%;
+	font-size: 1rem;
+	padding: 1rem;
+	border-left: 1px solid lightgray;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	border-right: none;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	outline: none;
 }
 
 .search-bar .search-icon {
-  background-color: rgb(240, 240, 240);
-  width: 65px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
+	background-color: rgb(240, 240, 240);
+	width: 65px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
 }
 
 .voice-assistant {
-  background-color: rgb(240, 240, 240);
-  border-radius: 50%;
-  margin-left: 1rem;
+	background-color: rgb(240, 240, 240);
+	border-radius: 50%;
+	margin-left: 1rem;
 }
 
 .user-button,
 .menu-user-button {
-  border: 1px solid rgb(240, 240, 240);
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-  width: 6.5rem;
+	border: 1px solid rgb(240, 240, 240);
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	width: 6.5rem;
 }
 
 .right-side {
-  margin-right: 1.5rem;
+	margin-right: 1.5rem;
 }
 
 .three-dots {
-  margin-right: 1rem;
+	margin-right: 1rem;
 }
 
 .user-button a,
 .user-button .user i,
 .menu-user-button a,
 .menu-user-button .menu-user i {
-  text-decoration: none;
-  color: blue;
+	text-decoration: none;
+	color: blue;
 }
 
 .voice-assistant:hover,
 .search-icon:hover {
-  background-color: lightgray;
-  cursor: pointer;
+	background-color: lightgray;
+	cursor: pointer;
 }
 
 .user-button:hover,
 .menu-user-button:hover {
-  cursor: pointer;
-  background-color: rgb(218, 246, 255);
+	cursor: pointer;
+	background-color: rgb(218, 246, 255);
 }
 
 .menu-user-button {
-  margin-left: 1.5rem;
+	margin-left: 1.5rem;
 }
 
 .three-dots:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 aside {
-  width: 19%;
-  background-color: white;
-  position: fixed;
+	width: 19%;
+	background-color: white;
+	position: fixed;
 }
 
 .sidebar {
-  width: 100%;
-  height: 92vh;
-  overflow: auto;
+	width: 100%;
+	height: 92vh;
+	overflow: auto;
 }
 
 .sidebar hr {
-  margin-top: 20px;
-  color: rgb(240, 240, 240);
+	margin-top: 20px;
+	color: rgb(240, 240, 240);
 }
 
 .menu,
 .menu2,
 .browse-channel-menu {
-  display: flex;
-  align-items: center;
-  padding: 9px;
-  border-radius: 15px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+	display: flex;
+	align-items: center;
+	padding: 9px;
+	border-radius: 15px;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
 }
 
 .active {
-  background-color: rgb(240, 240, 240);
+	background-color: rgb(240, 240, 240);
 }
 
 .menu:hover,
 .menu2:hover,
 .browse-channel-menu:hover {
-  background-color: rgb(240, 240, 240);
-  cursor: pointer;
+	background-color: rgb(240, 240, 240);
+	cursor: pointer;
 }
 
 .menu .icon,
 .menu2 .icon,
 .browse-channel-menu .icon {
-  font-size: 20px;
+	font-size: 20px;
+}
+
+.menu {
+	font-size: 20px;
 }
 
 .menu p,
 .menu2 p,
 .browse-channel-menu p {
-  margin-left: 2rem;
+	margin-left: 2rem;
 }
 
 .sign-in p {
-  line-height: 1.5rem;
+	line-height: 1.5rem;
 }
 
 .section2,
@@ -210,7 +214,7 @@ aside {
 .browse-channel-menu,
 .section4,
 .section5 {
-  margin-top: 0.8rem;
+	margin-top: 0.8rem;
 }
 
 .sign-in p,
@@ -219,190 +223,190 @@ aside {
 .wrapper-section-5,
 .wrapper-section-6,
 .sidebar-footer {
-  margin: 20px 30px 15px 30px;
+	margin: 20px 30px 15px 30px;
 }
 
 .first-row,
 .second-row {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .wrapper-section-5 p,
 .wrapper-section-6 p,
 .sidebar-footer p {
-  font-size: 13px;
-  margin-left: 6px;
-  line-height: 1.3rem;
+	font-size: 13px;
+	margin-left: 6px;
+	line-height: 1.3rem;
 }
 
 .wrapper-section-5 a,
 .wrapper-section-6 a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
 
 .sidebar-footer p {
-  font-size: 12px;
-  color: gray;
+	font-size: 12px;
+	color: gray;
 }
 
 .navigation-links {
-  margin: 0px 0px 0px 270px;
-  background-color: white;
-  padding: 5px 5px 10px 5px;
-  margin-right: 1.5rem;
-  position: fixed;
+	margin: 0px 0px 0px 270px;
+	background-color: white;
+	padding: 5px 5px 10px 5px;
+	margin-right: 1.5rem;
+	position: fixed;
 }
 
 .horizontal-scroll {
-  white-space: nowrap;
-  overflow-x: auto;
+	white-space: nowrap;
+	overflow-x: auto;
 }
 
 .horizontal-scroll a {
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-  margin-left: 0.5rem;
-  font-size: 16px;
-  background-color: rgb(240, 240, 240);
-  padding: 8px 10px 8px 10px;
-  border-radius: 6px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	margin-left: 0.5rem;
+	font-size: 16px;
+	background-color: rgb(240, 240, 240);
+	padding: 8px 10px 8px 10px;
+	border-radius: 6px;
 }
 
 .horizontal-scroll a:hover {
-  background-color: lightgray;
+	background-color: lightgray;
 }
 
 .horizontal-scroll .active {
-  background-color: black;
-  color: white;
+	background-color: black;
+	color: white;
 }
 
 .video-thumbnail-grid {
-  margin: 35px 0px 0px 280px;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  place-items: center;
+	margin: 35px 0px 0px 280px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	place-items: center;
 }
 
 .thumbnail-image {
-  background-color: white;
-  margin-top: 23px;
+	background-color: white;
+	margin-top: 23px;
 }
 
 .thumbnail-image img {
-  width: 370px;
-  border-radius: 15px;
+	width: 370px;
+	border-radius: 15px;
 }
 
 .thumbnail-image .thumbnail-channel-profile img {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
 }
 
 .thumbnail-channel-profile {
-  background-color: white;
-  display: flex;
+	background-color: white;
+	display: flex;
 }
 
 .thumbnail-image a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
 
 .thumbnail-video-description {
-  margin: 0px 0px 0px 1rem;
+	margin: 0px 0px 0px 1rem;
 }
 
 .thumbnail-channel-profile {
-  margin-top: 5px;
+	margin-top: 5px;
 }
 
 .thumbnail-video-description .video-title {
-  font-weight: bold;
-  margin-top: 5px;
+	font-weight: bold;
+	margin-top: 5px;
 }
 
 .thumbnail-video-description .channel-name,
 .views {
-  font-weight: 300;
-  font-size: 0.9rem;
-  line-height: 20px;
+	font-weight: 300;
+	font-size: 0.9rem;
+	line-height: 20px;
 }
 
 .thumbnail-channelName-views {
-  margin-top: 15px;
+	margin-top: 15px;
 }
 
 .video-section {
-  margin-bottom: 45px;
+	margin-bottom: 45px;
 }
 
 .youtube-shorts-section {
-  margin: 25px 0px 0px 280px;
+	margin: 25px 0px 0px 280px;
 }
 
 .youtube-shorts-title {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .youtube-shorts-title i {
-  font-size: 22px;
+	font-size: 22px;
 }
 
 .youtube-shorts-title h4 {
-  font-size: 19px;
-  margin-left: 0.8rem;
-  font-weight: 400;
+	font-size: 19px;
+	margin-left: 0.8rem;
+	font-weight: 400;
 }
 
 .youtube-shorts-video-grid {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .youtube-shorts-video-grid img {
-  width: 200px;
-  height: 350px;
-  border-radius: 15px;
+	width: 200px;
+	height: 350px;
+	border-radius: 15px;
 }
 
 .youtube-shorts-video-grid a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
 
 .youtube-shorts-video-description {
-  line-height: 25px;
+	line-height: 25px;
 }
 
 .shorts-video-title {
-  font-weight: bold;
-  font-size: 17px;
+	font-weight: bold;
+	font-size: 17px;
 }
 
 .shorts-video-views {
-  font-weight: 300;
-  font-size: 15px;
+	font-weight: 300;
+	font-size: 15px;
 }
 
 .more-shorts-videos {
-  margin-top: 1.5rem;
-  padding: 15px;
-  display: grid;
-  place-items: center;
+	margin-top: 1.5rem;
+	padding: 15px;
+	display: grid;
+	place-items: center;
 }
 
 .more-shorts-videos:hover {
-  background-color: rgb(240, 240, 240);
+	background-color: rgb(240, 240, 240);
 }
 
 .more-videos {
-  text-decoration: none;
+	text-decoration: none;
 }
